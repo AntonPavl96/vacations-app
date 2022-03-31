@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  width: 80vw;
+  height: 100%;
+  position: relative;
+  top: 10vh;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (max-width: 1050px) {
+  .container {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 90vw;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 95vw;
+  }
+}

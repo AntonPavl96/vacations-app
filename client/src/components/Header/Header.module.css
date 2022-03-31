@@ -1,0 +1,18 @@
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.searchDiv {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 500px) {
+  .flex {
+    flex-direction: column;
+  }
+}
